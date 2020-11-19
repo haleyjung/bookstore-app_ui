@@ -206,9 +206,9 @@ p {
 }
 
 .column--highlight__details--author {
-  margin: 0px 20px 0px 25px;
+  margin: -4px 20px 0px 25px;
 }
 
 .column--highlight__details--author p {
-    line-height: 15px;
+    line-height: 18px;
 }
