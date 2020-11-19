@@ -96,6 +96,14 @@ p {
   margin-top: -10px;
 }
 
+.column--highlight{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
 .rating i{
   color: var(--yellow);
 }
@@ -112,15 +120,8 @@ p {
 }
 
 /* 1. Book of the day */
-.column--highlight{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-}
 
-.column--highlight--book_lg img {
+.column--highlight--book__lg img {
   width: 106px;
   border-radius: 5px;
 }
@@ -131,21 +132,21 @@ p {
   margin-left: 18px;
 }
 
+.column--highlight__details p {
+  margin-top: -3px;
+}
+
 .btn__gray span {
   display: inline-block;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 10px;
-  margin-top: 15px;
-  font-size: 14px;
+  padding: 7px 14px;
+  margin-top: 17px;
   border-radius: 5px;
   background-color: rgba(0,0,0,.05);
-}
-
-.btn__gray span {
   font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .btn__gray span:first-child {
@@ -157,7 +158,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 12px;
+  margin-top: 17px;
 }
 
 .bookmark > div:first-child{
@@ -181,15 +182,15 @@ p {
 
 /* 2. Top Adventures */
 
-.column--highlight--book_sm {
-  margin-right: 28px;
+.column--highlight--book__sm {
+  margin-right: 30px;
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
 }
 
-.column--highlight--book_sm img {
+.column--highlight--book__sm img {
   width: 70px;
   height: 107px;
   border-radius: 5px;
@@ -204,7 +205,7 @@ p {
 }
 
 .column--highlight__details--author {
-  margin: 0px 15px 0px 25px;
+  margin: 0px 20px 0px 25px;
 }
 
 .column--highlight__details--author p {
